@@ -21,7 +21,7 @@ This lab builds upon the switch debouncer by integrating it into basic combinati
 
 #### Key Concepts:
 - Expanding on the use of Quartus to design combinational logic circuits.
-- Demonstrating the behavior of basic logic gates using debounced inputs.
+- Demonstrating the behaviour of basic logic gates using debounced inputs.
 
 #### Implementation:
 The debouncer output is combined with switch inputs to drive three different logic gates: AND, OR, and XOR. The results are displayed on LEDs connected to the FPGA. The logic circuit design is tested via simulation and then compiled and programmed onto the FPGA.
@@ -38,7 +38,7 @@ This lab explores the use of multiplexers (MUX) and their interaction with an 8-
 - Displaying binary data on an 8-segment display.
 
 #### Implementation:
-An 8-to-1 multiplexer is designed using the MegaWizard plug-in, with inputs based on the student’s ID number. A custom logic circuit that replicates the MUX’s behavior is then designed, minimized, and implemented. Both MUX designs are compared, and their outputs are displayed on an 8-segment display using VHDL code to drive the display segments.
+An 8-to-1 multiplexer is designed using the MegaWizard plug-in, with inputs based on the student’s ID number. A custom logic circuit that replicates the MUX’s behaviour is then designed, minimized, and implemented. Both MUX designs are compared, and their outputs are displayed on an 8-segment display using VHDL code to drive the display segments.
 
 
 ### Lab 4: Traffic Light Controller Design
@@ -49,10 +49,10 @@ This lab introduces finite state machine (FSM) design to implement a traffic lig
 
 - Designing and implementing an FSM.
 - Understanding state transitions and how external inputs (button presses) influence the states.
-- Using LEDs to simulate the behavior of a real-world traffic light system.
+- Using LEDs to simulate the behaviour of a real-world traffic light system.
 
 #### Implementation:
-An FSM is designed to manage the traffic lights at a T-intersection. The lights cycle through green, yellow, and red states based on button presses, simulating the behavior of traffic signals. The debouncer circuit from Lab 1 is integrated to ensure clean button inputs. The current state of the traffic light system is displayed on LEDs, with each state representing a different light condition. The design is compiled and tested on the FPGA.
+An FSM is designed to manage the traffic lights at a T-intersection. The lights cycle through green, yellow, and red states based on button presses, simulating the behaviour of traffic signals. The debouncer circuit from Lab 1 is integrated to ensure clean button inputs. The current state of the traffic light system is displayed on LEDs, with each state representing a different light condition. The design is compiled and tested on the FPGA.
 
 ## Requirements and Preparation beforehand 
 - Quartus Software Suite (version 13.0sp1 or 18.1 recommended)
